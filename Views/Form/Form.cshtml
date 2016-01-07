@@ -1,0 +1,105 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Form.css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/form.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <img src="~/Image/3.png" style="position: absolute; left: 0px; top: 0px; z-index: -1; opacity: 0.3; width: 100%; height:auto;"></img>
+    <header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="logo"><a href="/Home/Home"class="navbar-brand" style="color:white;" href=""><i>Kuch Bhi Baicho</i></a></div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="navbar" id="qw">
+                        <ul class="navbar-nav" style="font-size:150%">
+                            <li><a href="#" class="navbar-brand">Login/Sign up</a></li>
+                            <li><a href="#" class="navbar-brand">About us</a></li>
+                            <li><a href="#" class="navbar-brand">Contact us</a></li>
+                        </ul>
+                        <button id="b" onclick="location.href = '/Form/Form';" class="btn btn-group-sm" style="margin-top: 10px; height: 30px; margin-left: 20px; font-family: 'Adobe Caslon Pro';color:black;background:white;">Post Free Ad</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+
+
+
+    <div class="container">
+        <div class="form-area">
+            <form role="form">
+
+                <br style="clear:both" />
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h3 style="font-family: mid; font-weight: bold; margin-bottom: 25px; text-align: center;">
+                            Ad Details
+                        </h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Title " required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Price" required>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" type="textarea" id="message" placeholder="Description of Item" maxlength="140" rows="7"></textarea>
+                            <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-5">
+                        <h3 style="font-family:mid;
+                            font-weight:bold;margin-bottom:25px; text-align:center;">
+                            Your Contact
+                        </h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Email" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-2">
+                        <button type="button" id="submit" name="submit" class="btn btn-primary" style="width: 200px; background-image: url(../Image/6.jpg); border: none; margin-top: 20px; font-family: mid; font-weight: bold; font-size: 120%;">Publish Ad</button>
+                    </div>
+                    <div class="col-sm-5"></div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="container" style="margin-top:5px;">
+        <hr>
+
+        <small class="copyrights"> Copyright © Project by Ahsan Jamil (BCSF12M028) | Thank You for visiting the Web Site.</small>
+    </footer>
+</body>
+</html>

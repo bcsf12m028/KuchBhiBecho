@@ -1,4 +1,4 @@
-@font-face{
+﻿@font-face{
 	font-family: SaginawMedium;
 	src: url(../fonts/SaginawMedium.ttf);
 }
@@ -9,8 +9,25 @@
 @font-face{
 	font-family:mid;
 	src: url(../fonts/MyriadPro-Light_0.otf);
-			}
 
+
+			}
+ul
+{
+    list-style-type: none;
+}
+
+ul li a 
+{
+    color:white;
+    font-family:'Adobe Caslon Pro';
+    font-weight:bold;
+}
+   .navbar-brand:hover{
+        color:silver;  }
+#qw {
+    padding-top:5px;
+}
 .form-group
 {
 	font-family:Regular;
@@ -59,12 +76,6 @@ font-size:20px;
 	margin-top:170px
 }
 
-    
-#b:hover {
-    background-color:black;
-    color:white;
-    border:none;
-}
 header{
 	background-image:url(../Image/6.jpg);
 	
@@ -116,3 +127,43 @@ footer hr{
 .copyrights{
 	margin-top: 25px;
 }
+
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }

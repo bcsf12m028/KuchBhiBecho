@@ -1,4 +1,4 @@
-@font-face{
+﻿@font-face{
 	font-family: SaginawMedium;
 	src: url(../fonts/SaginawMedium.ttf);
 }
@@ -9,8 +9,25 @@
 @font-face{
 	font-family:mid;
 	src: url(../fonts/MyriadPro-Light_0.otf);
+
+
 			}
 
+ul
+{
+    list-style-type: none;
+}
+ul li a 
+{
+    color:white;
+    font-family:'Adobe Caslon Pro';
+    font-weight:bold;
+}
+   .navbar-brand:hover{
+        color:silver;  }
+#qw {
+    padding-top:5px;
+}
 .form-group
 {
 	font-family:Regular;
@@ -59,12 +76,6 @@ font-size:20px;
 	margin-top:170px
 }
 
-    
-#b:hover {
-    background-color:black;
-    color:white;
-    border:none;
-}
 header{
 	background-image:url(../Image/6.jpg);
 	
@@ -115,4 +126,20 @@ footer hr{
 }
 .copyrights{
 	margin-top: 25px;
+}
+
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color:none;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	
+	}
+h3 
+{
+   
 }
