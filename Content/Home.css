@@ -33,7 +33,7 @@ ul li a
 }
 .form-group
 {
-	font-family:Regular;
+	font-family:mid;
 }
 .logo i {
 	font-size: 50px;
@@ -51,7 +51,7 @@ ul li a
 
 .sign{font-size:30px;
 		padding-top:48px;
-		font-family:Regular;
+		font-family:mid;
 		
 	}
 
@@ -61,7 +61,7 @@ ul li a
 
 .signup
 {
-	font-family:Regular;
+	font-family:mid;
 font-size:20px;
 }
 .login-bottom-text{
