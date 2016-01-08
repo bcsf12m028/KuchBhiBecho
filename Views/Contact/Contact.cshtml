@@ -1,0 +1,53 @@
+﻿@{
+ Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "Contact";
+}
+
+<div class="row" style="margin-top:30px;">
+    <div class="col-sm-5"></div>
+    <div class="col-sm-2">
+        <h3 style="font-family:mid;font-weight:bold;margin-left:15px;font-size:30px;"><b>Contact us</b></h3>
+    </div>
+    <div class="col-sm-5"></div>
+
+
+</div>
+<section class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Kuch Bhi Baicho </h3>
+                <hr>
+                <address>
+                    <strong>Adress:</strong><br>
+                    <strong>Phone:</strong> 000000000
+                </address>
+
+                <address>
+                    <strong>Office:</strong> <br>
+                    <strong>Phone:</strong>00000000000000000
+                </address>
+            </div>
+
+            <div class="col-sm-8 contact-form">
+                <form id="contact" method="post" class="form" role="form">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
+                        </div>
+                        <div class="col-xs-6 col-md-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                    <br />
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12 form-group">
+                            <button class="btn btn-primary pull-right" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+</section>
+

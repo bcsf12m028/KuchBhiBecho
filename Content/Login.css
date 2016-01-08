@@ -30,8 +30,9 @@
 }
 
 .sign{font-size:30px;
+      font-weight:bold;
 		padding-top:48px;
-		font-family:Regular;
+		font-family:mid;
 		
 	}
 
@@ -41,8 +42,9 @@
 
 .signup
 {
-	font-family:Regular;
-font-size:20px;
+	font-family:mid;
+font-size:30px;
+font-weight:bold;
 }
 .login-bottom-text{
 	margin-top: 0px;
